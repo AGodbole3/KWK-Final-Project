@@ -18,10 +18,10 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fill)
             NavigationLink(destination: SanFran()) {
                 Text("📍")
-                    .position(x:73, y: 432)
+                    .position(x:70, y: 415)
                     .font(.largeTitle)
-            }
-
+                    .navigationBarHidden(true)
+                }
             }
         }
     }

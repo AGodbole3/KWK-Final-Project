@@ -23,6 +23,12 @@ struct SanFran: View {
                         .foregroundColor(Color(red: 1.002, green: 0.669, blue: 0.198))
                         .position(x:300, y: 750)
                         .font(.title3)
+                        .navigationBarHidden(true)
+                    }
+                Button("Add to Bucket List") {
+                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+                        Text("")
+                        }
                     }
                 }
             }
