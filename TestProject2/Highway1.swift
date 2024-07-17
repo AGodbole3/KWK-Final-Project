@@ -1,20 +1,20 @@
 //
-//  SanFran.swift
+//  Highway1.swift
 //  TestProject2
 //
-//  Created by Anushree Godbole on 7/16/24.
+//  Created by Anushree Godbole on 7/17/24.
 //
 
 import SwiftUI
 
-struct SanFran: View {
+struct Highway1: View {
     @State var addBucketList = "Add to Bucket List"
     var body: some View {
         NavigationStack {
             ZStack {
                 Color(red: 0.9988507628, green: 0.9778741002, blue: 0.8585886359)
                     .ignoresSafeArea()
-                Image("sfpage")
+                Image("Highway1")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 
@@ -39,9 +39,7 @@ struct SanFran: View {
                 }
             }
         
-    
-
 
 #Preview {
-    SanFran()
+    Highway1()
 }

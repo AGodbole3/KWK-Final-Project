@@ -16,16 +16,33 @@ struct ContentView: View {
             Image("homepage")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
-            NavigationLink(destination: SanFran()) {
-                Text("📍")
-                    .position(x:70, y: 415)
-                    .font(.largeTitle)
-                    .navigationBarHidden(true)
+        }
+            
+        ZStack {
+            VStack {
+                NavigationLink(destination: tahoe()) {
+                    Text("📍")
+                        .position(x:0, y: 100)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                    }
                 }
             }
+        ZStack {
+            VStack {
+                NavigationLink(destination: Yosemite()){
+                    Text("📍")
+                        .position(x:0, y: 200)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                    }
+                }
+            }
+            
+        }
         }
     }
-}
+
 
 #Preview {
     ContentView()

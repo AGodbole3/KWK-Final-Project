@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B5282062C483B4800BAADDD /* BucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5282052C483B4800BAADDD /* BucketList.swift */; };
+		8B5282082C48671E00BAADDD /* Highway1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5282072C48671E00BAADDD /* Highway1.swift */; };
+		8B52820A2C48672B00BAADDD /* Yosemite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5282092C48672B00BAADDD /* Yosemite.swift */; };
+		8B52820C2C48673800BAADDD /* SanDiego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52820B2C48673800BAADDD /* SanDiego.swift */; };
+		8B52820E2C48674100BAADDD /* LA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52820D2C48674100BAADDD /* LA.swift */; };
+		8B5282102C48676E00BAADDD /* tahoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B52820F2C48676E00BAADDD /* tahoe.swift */; };
 		8B63DBAF2C46FAE60098F987 /* SanFran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63DBAE2C46FAE60098F987 /* SanFran.swift */; };
 		8BF2E0BB2C41CB6D00B64ABD /* TestProject2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2E0BA2C41CB6D00B64ABD /* TestProject2App.swift */; };
 		8BF2E0BD2C41CB6D00B64ABD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2E0BC2C41CB6D00B64ABD /* ContentView.swift */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B5282052C483B4800BAADDD /* BucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList.swift; sourceTree = "<group>"; };
+		8B5282072C48671E00BAADDD /* Highway1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highway1.swift; sourceTree = "<group>"; };
+		8B5282092C48672B00BAADDD /* Yosemite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yosemite.swift; sourceTree = "<group>"; };
+		8B52820B2C48673800BAADDD /* SanDiego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanDiego.swift; sourceTree = "<group>"; };
+		8B52820D2C48674100BAADDD /* LA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA.swift; sourceTree = "<group>"; };
+		8B52820F2C48676E00BAADDD /* tahoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tahoe.swift; sourceTree = "<group>"; };
 		8B63DBAE2C46FAE60098F987 /* SanFran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanFran.swift; sourceTree = "<group>"; };
 		8BF2E0B72C41CB6D00B64ABD /* TestProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF2E0BA2C41CB6D00B64ABD /* TestProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProject2App.swift; sourceTree = "<group>"; };
@@ -56,6 +68,12 @@
 				8BF2E0BA2C41CB6D00B64ABD /* TestProject2App.swift */,
 				8BF2E0BC2C41CB6D00B64ABD /* ContentView.swift */,
 				8B63DBAE2C46FAE60098F987 /* SanFran.swift */,
+				8B5282072C48671E00BAADDD /* Highway1.swift */,
+				8B5282092C48672B00BAADDD /* Yosemite.swift */,
+				8B52820B2C48673800BAADDD /* SanDiego.swift */,
+				8B52820D2C48674100BAADDD /* LA.swift */,
+				8B52820F2C48676E00BAADDD /* tahoe.swift */,
+				8B5282052C483B4800BAADDD /* BucketList.swift */,
 				8BF2E0BE2C41CB6F00B64ABD /* Assets.xcassets */,
 				8BF2E0C02C41CB6F00B64ABD /* Preview Content */,
 			);
@@ -140,7 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B52820E2C48674100BAADDD /* LA.swift in Sources */,
+				8B5282102C48676E00BAADDD /* tahoe.swift in Sources */,
+				8B52820A2C48672B00BAADDD /* Yosemite.swift in Sources */,
+				8B5282082C48671E00BAADDD /* Highway1.swift in Sources */,
+				8B52820C2C48673800BAADDD /* SanDiego.swift in Sources */,
 				8BF2E0BD2C41CB6D00B64ABD /* ContentView.swift in Sources */,
+				8B5282062C483B4800BAADDD /* BucketList.swift in Sources */,
 				8B63DBAF2C46FAE60098F987 /* SanFran.swift in Sources */,
 				8BF2E0BB2C41CB6D00B64ABD /* TestProject2App.swift in Sources */,
 			);

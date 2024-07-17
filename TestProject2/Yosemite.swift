@@ -1,20 +1,20 @@
 //
-//  SanFran.swift
+//  Yosemite.swift
 //  TestProject2
 //
-//  Created by Anushree Godbole on 7/16/24.
+//  Created by Anushree Godbole on 7/17/24.
 //
 
 import SwiftUI
 
-struct SanFran: View {
+struct Yosemite: View {
     @State var addBucketList = "Add to Bucket List"
     var body: some View {
         NavigationStack {
             ZStack {
                 Color(red: 0.9988507628, green: 0.9778741002, blue: 0.8585886359)
                     .ignoresSafeArea()
-                Image("sfpage")
+                Image("Yosemite")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 
@@ -22,7 +22,7 @@ struct SanFran: View {
                     Text("Back to Map")
                         .fontWeight(.heavy)
                         .foregroundColor(Color(red: 1.002, green: 0.669, blue: 0.198))
-                        .position(x:300, y: 750)
+                        .position(x:300, y: 760)
                         .font(.title3)
                         .navigationBarHidden(true)
                     }
@@ -30,7 +30,7 @@ struct SanFran: View {
                     addBucketList = "Added to Bucket List"
                         
                 }
-                .position(x:195, y: 125)
+                .position(x:195, y: 110)
                 .buttonStyle(.bordered)
                 .tint(Color(red: 0.4700444341, green: 0.5303764939, blue: 0.3214375377))
                 .fontWeight(.bold)
@@ -39,9 +39,7 @@ struct SanFran: View {
                 }
             }
         
-    
-
 
 #Preview {
-    SanFran()
+    Yosemite()
 }

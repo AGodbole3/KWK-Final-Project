@@ -1,20 +1,20 @@
 //
-//  SanFran.swift
+//  tahoe.swift
 //  TestProject2
 //
-//  Created by Anushree Godbole on 7/16/24.
+//  Created by Anushree Godbole on 7/17/24.
 //
 
 import SwiftUI
 
-struct SanFran: View {
+struct tahoe: View {
     @State var addBucketList = "Add to Bucket List"
     var body: some View {
         NavigationStack {
             ZStack {
                 Color(red: 0.9988507628, green: 0.9778741002, blue: 0.8585886359)
                     .ignoresSafeArea()
-                Image("sfpage")
+                Image("Tahoe")
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fill)
                 
@@ -22,7 +22,7 @@ struct SanFran: View {
                     Text("Back to Map")
                         .fontWeight(.heavy)
                         .foregroundColor(Color(red: 1.002, green: 0.669, blue: 0.198))
-                        .position(x:300, y: 750)
+                        .position(x:300, y: 745)
                         .font(.title3)
                         .navigationBarHidden(true)
                     }
@@ -39,9 +39,7 @@ struct SanFran: View {
                 }
             }
         
-    
-
 
 #Preview {
-    SanFran()
+    tahoe()
 }
