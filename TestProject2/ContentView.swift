@@ -5,6 +5,7 @@
 //  Created by Anushree Godbole on 7/12/24.
 //
 
+public var bucketList: [String] = []
 import SwiftUI
 
 struct ContentView: View {
@@ -16,10 +17,8 @@ struct ContentView: View {
             Image("homepage")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
-            
-            
-            
-            
+
+
             HStack (spacing: -130){
                 VStack {
                     NavigationLink(destination: SanFran()) {
