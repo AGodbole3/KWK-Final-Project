@@ -12,7 +12,7 @@ struct LA: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                let myFunction: () -> ()
+                
                 Color(red: 0.9988507628, green: 0.9778741002, blue: 0.8585886359)
                     .ignoresSafeArea()
                 Image("LA")
