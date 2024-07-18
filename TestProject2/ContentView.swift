@@ -67,7 +67,7 @@ struct ContentView: View {
                 VStack {
                 NavigationLink(destination: tahoe()){
                     Text("📍")
-                        .position(x:35, y: 355)
+                        .position(x:32, y: 355)
                         .font(.largeTitle)
                         .navigationBarHidden(true)
                 }
