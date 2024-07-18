@@ -16,28 +16,97 @@ struct ContentView: View {
             Image("homepage")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fill)
-        }
             
-        ZStack {
-            VStack {
-                NavigationLink(destination: tahoe()) {
+            
+            
+            
+            HStack (spacing: -130){
+                VStack {
+                    NavigationLink(destination: SanFran()) {
+                        Text(" ")
+                            .position(x:65, y: 420)
+                            .font(.largeTitle)
+                            .navigationBarHidden(true)
+                        
+                    }
+                    
+                }
+                VStack {
+                    NavigationLink(destination: SanFran()) {
+                        Text("📍")
+                            .position(x:32, y: 420)
+                            .font(.largeTitle)
+                            .navigationBarHidden(true)
+                        
+                    }
+                    
+                }
+            
+            
+                VStack {
+                NavigationLink(destination: Highway1()){
                     Text("📍")
-                        .position(x:0, y: 100)
+                        .position(x:25, y: 460)
                         .font(.largeTitle)
                         .navigationBarHidden(true)
-                    }
                 }
+                    
+                
             }
-        ZStack {
-            VStack {
+                VStack {
+                NavigationLink(destination: Highway1()){
+                    Text(" ")
+                        .position(x:17, y: 460)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                }
+                    
+                
+            }
+                
+                VStack {
+                NavigationLink(destination: tahoe()){
+                    Text("📍")
+                        .position(x:35, y: 355)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                }
+                
+            }
+                VStack {
                 NavigationLink(destination: Yosemite()){
                     Text("📍")
-                        .position(x:0, y: 200)
+                        .position(x:20, y: 405)
                         .font(.largeTitle)
                         .navigationBarHidden(true)
-                    }
                 }
+                
             }
+                VStack {
+                NavigationLink(destination: LA()){
+                    Text("📍")
+                        .position(x:15, y: 625)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                }
+                
+            }
+                VStack {
+                NavigationLink(destination: SanDiego()){
+                    Text("📍")
+                        .position(x:20, y: 685)
+                        .font(.largeTitle)
+                        .navigationBarHidden(true)
+                }
+                
+            }
+        }
+            
+                    
+              
+                
+            }
+        
             
         }
         }
