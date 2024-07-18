@@ -28,7 +28,7 @@
 		8B52820D2C48674100BAADDD /* LA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LA.swift; sourceTree = "<group>"; };
 		8B52820F2C48676E00BAADDD /* tahoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tahoe.swift; sourceTree = "<group>"; };
 		8B63DBAE2C46FAE60098F987 /* SanFran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanFran.swift; sourceTree = "<group>"; };
-		8BF2E0B72C41CB6D00B64ABD /* TestProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2E0B72C41CB6D00B64ABD /* CaliForU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaliForU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF2E0BA2C41CB6D00B64ABD /* TestProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProject2App.swift; sourceTree = "<group>"; };
 		8BF2E0BC2C41CB6D00B64ABD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BF2E0BE2C41CB6F00B64ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		8BF2E0B82C41CB6D00B64ABD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BF2E0B72C41CB6D00B64ABD /* TestProject2.app */,
+				8BF2E0B72C41CB6D00B64ABD /* CaliForU.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BF2E0B62C41CB6D00B64ABD /* TestProject2 */ = {
+		8BF2E0B62C41CB6D00B64ABD /* CaliForU */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF2E0C52C41CB6F00B64ABD /* Build configuration list for PBXNativeTarget "TestProject2" */;
+			buildConfigurationList = 8BF2E0C52C41CB6F00B64ABD /* Build configuration list for PBXNativeTarget "CaliForU" */;
 			buildPhases = (
 				8BF2E0B32C41CB6D00B64ABD /* Sources */,
 				8BF2E0B42C41CB6D00B64ABD /* Frameworks */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = TestProject2;
+			name = CaliForU;
 			productName = TestProject2;
-			productReference = 8BF2E0B72C41CB6D00B64ABD /* TestProject2.app */;
+			productReference = 8BF2E0B72C41CB6D00B64ABD /* CaliForU.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BF2E0B22C41CB6D00B64ABD /* Build configuration list for PBXProject "TestProject2" */;
+			buildConfigurationList = 8BF2E0B22C41CB6D00B64ABD /* Build configuration list for PBXProject "CaliForU" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BF2E0B62C41CB6D00B64ABD /* TestProject2 */,
+				8BF2E0B62C41CB6D00B64ABD /* CaliForU */,
 			);
 		};
 /* End PBXProject section */
@@ -351,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BF2E0B22C41CB6D00B64ABD /* Build configuration list for PBXProject "TestProject2" */ = {
+		8BF2E0B22C41CB6D00B64ABD /* Build configuration list for PBXProject "CaliForU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BF2E0C32C41CB6F00B64ABD /* Debug */,
@@ -360,7 +360,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF2E0C52C41CB6F00B64ABD /* Build configuration list for PBXNativeTarget "TestProject2" */ = {
+		8BF2E0C52C41CB6F00B64ABD /* Build configuration list for PBXNativeTarget "CaliForU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BF2E0C62C41CB6F00B64ABD /* Debug */,
